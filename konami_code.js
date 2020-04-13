@@ -15,7 +15,7 @@ function init() {
   function init() {
     // your code here	  //
     var index = 0
-    document.body.addEventListener('keydown', onKeyDownHandler);
+    document.body.addEventListener('keydown', onKeyDownHandler());
 
     function onKeyDownHandler(e) {
       const key = parseInt(e.detail || e.which)
