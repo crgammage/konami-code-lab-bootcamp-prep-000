@@ -25,7 +25,7 @@ const codes = [
     //     index = 0
     //   }
   //} 
-  .body.addEventListener('keydown', function(e){
+  document.body.addEventListener('keydown', function(e){
     console.log(e)
   });
   }	}
