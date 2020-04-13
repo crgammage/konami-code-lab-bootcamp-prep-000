@@ -13,8 +13,8 @@ const codes = [
 
   function init() {
     var index = 0
-    document.body.addEventListener('keydown', onKeyDownHandler());
     function onKeyDownHandler(e) {
+
       const key = parseInt(e.detail || e.which)
       console.log('key', key)
       if (key === codes[index]) {
@@ -26,5 +26,5 @@ const codes = [
       } else {
         index = 0
       }
-    }
+    } document.body.addEventListener('keydown', onKeyDownHandler());
   }	}
