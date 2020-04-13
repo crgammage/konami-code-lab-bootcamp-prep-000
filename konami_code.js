@@ -24,7 +24,7 @@ const codes = [
     //     } else {
     //     index = 0
     //   }
-  //} 
+  //}
   document.body.addEventListener('keydown', function(e){
     console.log(e)
   });
