@@ -22,10 +22,10 @@ function init() {
       console.log('key', key)
       if (key === codes[index]) {
         index++
-
         if (index === codes.length) {
           alert("YOU DID IT!")
           index = 0
+          console.log(onKeyDownHandler(e))
         }
       } else {
         index = 0
