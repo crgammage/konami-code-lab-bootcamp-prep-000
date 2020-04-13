@@ -22,7 +22,6 @@ const codes = [
         if (index === codes.length) {
           alert("YOU DID IT!")
           index = 0
-          console.log(onKeyDownHandler(e))
         }
       } else {
         index = 0
